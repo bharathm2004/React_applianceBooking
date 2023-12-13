@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+    cursor: pointer;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  form {
+    color: white;
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.055);
+    box-shadow: 0 8px 32px 0 rgb(5, 5, 10);
+    border-radius: 30px;
+    padding: 20px; 
+  }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 3px;
+  }
+  
+  label {
+    font-size: 20px;
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+    margin-bottom: 5px; 
+  }
+  
+  input {
+    width: 80%;
+    margin: 2% auto; 
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white; 
+    border-bottom: 1px solid;
+  }
+  
+  #two {
+    width: 50%;
+    margin: 3% auto;
+    font-family: century gothic;
+  }
+  
+  button {
+    width: 200px;
+    height: 50px;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #0066ba;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0;
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: medium;
+  }
+  
+  span {
+    background: #1571a7;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    width: 100%;
+  }
+  
+  button:hover span {
+    border: none;
+  }
+  
+  a {
+    text-align: center;
+    color: white;
+  }
+  
