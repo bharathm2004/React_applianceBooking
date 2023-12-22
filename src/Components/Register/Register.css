@@ -1,0 +1,106 @@
+/* Unique class for register page */
+.register-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-family: century gothic;
+  cursor: pointer;
+}
+
+.register-body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(/public/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-form {
+  color: white;
+  width: 20rem; /* Same width as login form */
+  height: 25rem; /* Same height as login form */
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.055);
+  box-shadow: 0 8px 32px 0 rgb(5, 5, 10);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.register-h1 {
+  font-size: 2rem; /* Same font size as login form */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 3px;
+}
+
+.register-label {
+  font-size: 16px; /* Same font size as login form */
+  margin-left: 10%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.11);
+  margin-bottom: 5px;
+}
+
+.register-input {
+  width: 80%;
+  height: 100%;
+  margin: 2% auto;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color:black;
+  border-bottom: 1px solid;
+}
+
+/* Unique ID for register page */
+#register-two {
+  width: 50%;
+  margin: 3% auto;
+  font-family: century gothic;
+}
+
+.register-button {
+  width: 150px; /* Reduced width */
+  height: 40px; /* Reduced height */
+  padding: 15px 0; /* Reduced padding */
+  text-align: center;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 2px solid #01080e;
+  background:transparent;
+  color: black;
+  cursor: pointer;
+  justify-content: center;
+  margin: 10px auto 0; /* Reduced margin */
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.register-span {
+  background: #1571a7;
+  height: 100%;
+  width: 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.register-button:hover .register-span {
+  width: 100%;
+}
+
+.register-button:hover .register-span {
+  border: none;
+}
+
+.register-link {
+  text-align: center;
+  color: white;
+}

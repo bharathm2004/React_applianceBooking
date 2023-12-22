@@ -1,0 +1,41 @@
+/* Footer.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 0px; /* Adjust the thickness as needed */
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-i {
+    white-space: nowrap;
+    margin-right: 20px; /* Adjust the margin between "Social media" and icons */
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons */
+  }
+  
+  .footer-contact {
+    white-space: nowrap;
+    margin-right: 10px; /* Adjust the margin between contact info and icons/links */
+  }
+  
+  .footer-links {
+    text-align: right;
+    white-space: nowrap; /* Ensures that the text stays in a single line */
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px; /* Adjust the margin between links */
+  }
+  
+  /* Add your other styling as needed */
+  

@@ -1,0 +1,49 @@
+/* PaymentPage.css */
+
+.payment-page-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-page-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-details-section,
+  .upi-details-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+  }
+  
+  .payment-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .payment-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .payment-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-button:hover {
+    background-color: #45a049;
+  }
+  
